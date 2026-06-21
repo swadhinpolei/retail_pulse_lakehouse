@@ -177,3 +177,7 @@ for batch_num in range(1, NUM_BATCHES + 1):
     time.sleep(INTERVAL_SECONDS)
 
 print("Generator finished. Re-run the cell (or this notebook) to keep the feed alive.")
+
+# COMMAND ----------
+
+display(dbutils.fs.ls("/Volumes/retailpulse/lakehouse/landing_zone"))
